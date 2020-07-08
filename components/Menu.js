@@ -77,16 +77,8 @@ menuButtSelect.addEventListener('click', function(event){
   Step 6: Use 'menuMaker' to create a menu using the 'menuItems' array, and append the returned menu to the header.
 */
 
-
-menuMaker(menuItems);
-
 const lastOne = document.querySelector('.header');
 
 lastOne.appendChild(menuMaker(menuItems));
 
 
-// const createListItems = (string) => {
-//   const menuListItem = document.createElement('li');
-//   menuListItem.innerHTML = string;
-//   menuUnorder.appendChild(menuListItem);
-// }
